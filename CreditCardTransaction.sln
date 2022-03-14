@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardTransaction.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardTransaction.Repository", "CreditCardTransaction.Repository\CreditCardTransaction.Repository.csproj", "{114868F0-1901-4386-BD40-BDD4F8D4FE03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardTransaction.ConsoleApp", "CreditCardTransaction.ConsoleApp\CreditCardTransaction.ConsoleApp.csproj", "{E53891AB-C84F-4EC4-87E4-2343B3BC9F43}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardTransaction.Test", "CreditCardTransaction.Test\CreditCardTransaction.Test.csproj", "{702D2866-40CA-4ED7-8308-A98FF503511F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCardTransaction.Test", "CreditCardTransaction.Test\CreditCardTransaction.Test.csproj", "{702D2866-40CA-4ED7-8308-A98FF503511F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{114868F0-1901-4386-BD40-BDD4F8D4FE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114868F0-1901-4386-BD40-BDD4F8D4FE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114868F0-1901-4386-BD40-BDD4F8D4FE03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E53891AB-C84F-4EC4-87E4-2343B3BC9F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E53891AB-C84F-4EC4-87E4-2343B3BC9F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E53891AB-C84F-4EC4-87E4-2343B3BC9F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E53891AB-C84F-4EC4-87E4-2343B3BC9F43}.Release|Any CPU.Build.0 = Release|Any CPU
 		{702D2866-40CA-4ED7-8308-A98FF503511F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{702D2866-40CA-4ED7-8308-A98FF503511F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{702D2866-40CA-4ED7-8308-A98FF503511F}.Release|Any CPU.ActiveCfg = Release|Any CPU

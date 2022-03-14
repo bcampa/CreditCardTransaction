@@ -3,9 +3,8 @@ using System.Collections.Generic;
 
 namespace CreditCardTransaction.Domain
 {
-    public class CartaoDeCredito
+    public class CartaoDeCredito : BaseModel
     {
-        public Guid Id { get; set; }
         public string Numero { get; set; }
         public decimal Limite { get; set; }
         public decimal LimiteConsumido { get; set; }

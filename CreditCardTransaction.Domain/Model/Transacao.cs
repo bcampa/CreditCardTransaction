@@ -4,9 +4,8 @@ using System.Linq;
 
 namespace CreditCardTransaction.Domain
 {
-    public class Transacao
+    public class Transacao : BaseModel
     {
-        public Guid Id { get; set; }
         public Cliente Cliente { get; set; }
         public IList<ItemProduto> Itens { get; set; }
         public CartaoDeCredito CartaoDeCredito { get; set; }
